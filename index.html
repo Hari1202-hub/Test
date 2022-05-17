@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>QEAsaS Report Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    
+</head>
+
+<body style="font-family: Open Sans, sans-serif; color: #fff; margin: auto; background: #252525; overflow-x: hidden;">
+    <!--Header-->
+    <div class="sitebody"
+        style="height: 4000px; background: linear-gradient(86.24deg, #393861 -21.37%, #A85D53 134.74%); max-width:800px;">
+        <table style="padding-top: 5%; padding-left: 10%;">
+            <tr>
+                <td style="width:50%;">
+                    <a href="index.html" class="logo" style=" width: 100%;"><img src="images/logo.png" alt=""
+                            class="img-fluid" style=""></a>
+                </td>
+                <td style="width:40%">
+                    <h5>Site reliability test results for: <br> www.TestTV24.com/shows/genre-selection
+                    </h5>
+                </td>
+            </tr>
+        </table>
+        <table style="margin-left: 20%;width: 60%;text-align: center; margin-right: 20%; padding-top:50px;">
+            <tr>
+                <td>
+                    <h2
+                        style="color:aliceblue; font-style: normal; font-weight: bold; font-size: 20px; line-height: 30px;">
+                        Your website performance is <span style="color:#86C171;">top-notch.</span>
+                    </h2>
+                    <p style="color:aliceblue;font-size:12px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore. Do eiusmod tempor incididunt ut labore et dolore.</p>
+                </td>
+            </tr>
+        </table>
+        <table style="text-align: center; width: 600px;margin-left: 10%;border-spacing: 10px 0px;">
+            <tr>
+                <td
+                    style="width: 150px; height: 180px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Largest Contentful Paint (LCP)</h5>
+                    <h1 style="font-style: normal; font-weight: bold; font-size: 30px; line-height: 50px;">2.75s<img
+                            src="images/uparrow.png" style="width:20px;padding-left: 10px;">
+                        <!--<img src="images/downarrow.png" style="width:20px;padding-left: 10px;">-->
+                    </h1>
+                    <div class="pointer"
+                        style="position: relative; align-items: center; margin-right: 15%; margin-left: 9%;margin-bottom: -5px;">
+                        <image src="images/Pointer.png"
+                         style="width:15px;position: absolute; --value: 2.75;  --max : 6; --c: calc(var(--value) * 100 / var(--max)); left: min(calc(var(--c) * 1%),100%)">
+                        </image><br>
+                    </div>
+                    <image src="images/LCP-scale.png" style="width: 100%; max-width: 80%;"></image>
+                    <!--<p style="margin-top: -20px; font-size: 10px; color: #c9c9c9;">2.75s</p>-->
+                </td>
+                <br>
+                <td
+                    style="width: 150px; height: 180px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Total Blocking Time (TBT)</h5>
+                    <h1 style="font-style: normal; font-weight: bold; font-size: 30px; line-height: 50px;">150ms<img
+                            src="images/uparrow.png" style="width:20px;padding-left: 10px;">
+                        <!--<img src="images/downarrow.png" style="width:20px;padding-left: 10px;">-->
+                    </h1>
+                    <div class="pointer"
+                        style="position: relative; align-items: center; margin-right: 15%; margin-left: 8%; margin-bottom: -5px;">
+                        <image src="images/Pointer.png"
+                            style="width:15px;position: absolute; --value: 150;  --max : 800; --c: calc(var(--value) * 100 / var(--max)); left: min(calc(var(--c) * 1%),100%)">
+                        </image><br>
+                    </div>
+                    <image src="images/TBT-scale.png" style="width: 100%; max-width: 80%;"></image>
+                    <!--<p style="margin-top: -20px; font-size: 10px; color: #c9c9c9;">150ms</p>-->
+                </td>
+                <td
+                    style="width: 150px; height: 180px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Cumulative Layout Shift (CLS)</h5>
+                    <h1 style="font-style: normal; font-weight: bold; font-size: 30px; line-height: 50px;">0.05<img
+                            src="images/downarrow.png" style="width:20px;padding-left: 10px;">
+                        <!--<img src="images/uparrow.png" style="width:20px;padding-left: 10px;">-->
+                    </h1>
+                    <div class="pointer"
+                        style="position: relative; align-items: center; margin-right: 15%; margin-left: 8%; margin-bottom: -5px">
+                        <image src="images/Pointer.png"
+                            style="width:15px;position: absolute;--value: 0.05;  --max : 0.3; --c: calc(var(--value) * 100 / var(--max)); left: min(calc(var(--c) * 1%),100%)">
+                        </image> <br>
+                    </div>
+                    <image src="images/CLS-scale.png" style="width: 100%; max-width: 80%;"></image>
+                    <!-- <p style="margin-top: -20px; font-size: 10px; color: #c9c9c9;">0.05</p>-->
+                </td>
+            </tr>
+        </table>
+        <!--LCP Section starts-->
+        <table style="margin: 5% 10% 5% 10%">
+            <tr>
+                <td>
+                    <h2 style="font-style: normal; font-weight: bold; font-size: 18px; padding-top: 50px;"> Largest
+                        Contentful Paint (LCP)</h2>
+                </td>
+            </tr>
+            <tr>
+                <td style=" text-align: justify; width: 40%;">
+                    <p
+                        style="padding-right: 20px; padding-bottom:40px; border: 1px;border-right-style: solid;border-color: #fafafa30; font-size: 10px">
+                        LCP is
+                        a Core Web Vitals metric that measures loading time. More specifically,
+                        it measures the
+                        amount of time it takes to render the largest content element within the viewable area
+                        of a
+                        user’s
+                        screen. It does not measure the entire page. The time between the request of the page
+                        and
+                        the
+                        appearance of the main content in the browser is measured in seconds.
+                    </p>
+
+                </td>
+                <td style="text-align: justify; width: 40%;">
+                    <table style="padding-left: 30px;">
+                        <tr>
+                            <h3 style="font-size: 11px">Google gives us the following ratings for the metric:</h3>
+                        </tr>
+                        <tr>
+                            <td style="flex: 33.33%;">
+                                <h4 style="margin:10px; color:#86C171; font-size: 11px;">Good performance</h4>
+                                <h4 style="margin:10px; color:#F3D053; font-size: 11px;">Needs improvement</h4>
+                                <h4 style="margin:10px; color:#FF5C5C; font-size: 11px;">Poor performance</h4>
+                            </td>
+                            <td style="flex: 33.33%;">
+                                <h4 style="margin:10px; font-size: 11px;">Less than 2.5 seconds</h4>
+                                <h4 style="margin:10px; font-size: 11px;">2.5 to 4 seconds</h4>
+                                <h4 style="margin:10px; font-size: 11px;">More than 4 seconds</h4>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table style="border-spacing: 10px 0px; margin-left:10%; width:600px;">
+            <tr style="">
+                <td
+                    style="width:250px; height: 180px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px; vertical-align:middle; align-items:center;">
+                    <h3 style="text-align: left; padding-bottom: 5%; font-size: 12px;">Largest Contentful
+                        Paint
+                        (LCP)</h3>
+                    <h1 style="padding-bottom: 5%; text-align: center;">2.75s
+                        <img src="images/uparrow.png" style="width:20px;padding-left: 10px;">
+                        <!--<img src="images/downarrow.png" style="width:20px;padding-left: 10px;">-->
+                    </h1>
+                    <div class="center" style="text-align: center;">
+                        <div class="pointer"
+                            style="position: relative; align-items: center; margin-right: 15%; margin-left: 9%;">
+                            <image src="images/Pointer.png"
+                                style="width:20px; position: absolute; --value: 2.75;  --max : 6; --c: calc(var(--value) * 100 / var(--max)); left: min(calc(var(--c) * 1%),100%);">
+                            </image><br>
+                        </div>
+                        <image src="images/LCP-scale.png" style="width: 100%; max-width: 80%;"></image>
+                        <!-- <p style="margin-top: -20px; font-size: 10px; color: #c9c9c9;">2.75s</p>-->
+                    </div>
+                </td>
+                <td
+                    style="width:450px; height: 180px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <table>
+                        <tr>
+                            <h3 style="text-align: left; margin-bottom: 5px; margin-left: 3%;font-size: 12px;">Ways
+                                to
+                                improve LCP score
+                            </h3>
+                        </tr>
+                        <tr style="width:300px">
+                            <td>
+                                <ul style="text-align: left !important; margin-left: -20px; width:130px;">
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; line-height: 1.25em;">
+                                        Remove any unnecessarily third-party scripts</li>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; line-height: 1.25em;">
+                                        Upgrade to a faster web host</li>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; line-height: 1.25em;">
+                                        Install a CDN</li>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; line-height: 1.25em;">
+                                        Cache assets</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; line-height: 1.25em;">
+                                        Set up lazy loading of images</li>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; line-height: 1.25em;">
+                                        Minify your CSS</li>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; line-height: 1.25em;">
+                                        Remove large page elements that take more time to load (large images,
+                                        GIFs,
+                                        etc.)</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+
+
+            </tr>
+        </table>
+        <!--LCP Section End-->
+
+        <!--TBT Section starts-->
+        <div class="container" style="margin: 5% 10% 5% 10%">
+            <h2 style="font-style: normal; font-weight: bold; font-size: 25px; line-height: 30px;padding-top: 100px;">
+                Total Blocking Time (TBT)</h2>
+            <div class="row"
+                style="--bs-gutter-x: 1.5rem; --bs-gutter-y: 0; display: flex; flex-wrap: wrap; margin-top: calc(-1 * var(--bs-gutter-y)); margin-right: calc(-0.5 * var(--bs-gutter-x));  margin-left: calc(-0.5 * var(--bs-gutter-x));">
+                <div class="col-md-6" style="flex: 50%; text-align: justify; width: 40%;">
+                    <p
+                        style="padding-right: 20px; padding-bottom:50px; border: 1px;border-right-style: solid;border-color: #fafafa30; font-size: 10px">
+                        Total Blocking Time (TBT) is a non-Core Web Vital that measures the total time in
+                        milliseconds
+                        between First Contentful Paint (FCP) and Time To Interactive (TTI) where the main thread is
+                        blocked long enough to make it unresponsive to user input. Here’s how to interpret your TBT
+                        score:
+                    </p>
+
+                </div>
+                <div class="col-md-6" style="flex: 50%; text-align: justify; width: 40%;">
+                    <div style="padding-left: 30px;">
+                        <h3 style="font-size: 11px">Google gives us the following ratings for the metric:</h3>
+                        <div class="row"
+                            style="--bs-gutter-x: 1.5rem; --bs-gutter-y: 0; display: flex; flex-wrap: wrap; margin-top: calc(-1 * var(--bs-gutter-y)); margin-right: calc(-0.5 * var(--bs-gutter-x));  margin-left: calc(-0.5 * var(--bs-gutter-x));">
+                            <div class="col-md-2" style="flex: 33.33%;">
+                                <h4 style="margin:10px; color:#86C171; font-size: 11px;">Good performance</h4>
+                                <h4 style="margin:10px; color:#F3D053; font-size: 11px;">Needs improvement</h4>
+                                <h4 style="margin:10px; color:#FF5C5C; font-size: 11px;">Poor performance</h4>
+                            </div>
+                            <div class="col-md-2" style="flex: 50%;">
+                                <h4 style="margin:10px; font-size: 11px;">Less than 200 milliseconds</h4>
+                                <h4 style="margin:10px; font-size: 11px;">200 to 600 millisecondss</h4>
+                                <h4 style="margin:10px; font-size: 11px;">More than 600 milliseconds</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row"
+                style="--bs-gutter-x: 1.5rem; --bs-gutter-y: 0; display: flex; flex-wrap: wrap; margin-top: calc(-1 * var(--bs-gutter-y)); margin-right: calc(-0.5 * var(--bs-gutter-x));  margin-left: calc(-0.5 * var(--bs-gutter-x));">
+                <div class="divcolumn2"
+                    style="display: grid; grid-template-columns: 35% 65%; text-align: center; width: 100%;">
+                    <div class="col-md-3"
+                        style="flex: 33.33%; height: 180px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px; vertical-align:middle;">
+                        <h3 style="text-align: left;padding-bottom: 5%;font-size:12px;">Total Blocking Time (TBT)
+                        </h3>
+                        <h1 style="padding-bottom: 5%;">150ms
+                            <img src="images/uparrow.png" style="width:20px;padding-left: 10px;">
+                            <!--<img src="images/downarrow.png" style="width:20px;padding-left: 10px;">-->
+                        </h1>
+                        <div class="center" style="text-align: center;">
+                            <div class="pointer"
+                                style="position: relative; align-items: center; margin-right: 14%; margin-left: 8%;">
+                                <image src="images/Pointer.png"
+                                    style="width:20px;position: absolute;--value: 150;  --max : 800; --c: calc(var(--value) * 100 / var(--max)); left: min(calc(var(--c) * 1%),100%)">
+                                </image><br>
+                            </div>
+                            <image src="images/TBT-scale.png" style="width: 100%; max-width: 80%;"></image>
+                            <!--<p style="margin-top: -20px; font-size: 10px; color: #c9c9c9;">150ms</p>-->
+                        </div>
+                    </div>
+                    <div class="col-md-3"
+                        style="flex: 33.33%; height: 250px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                        <h3 style="text-align: left; margin-bottom: 5px; margin-left: 3%;font-size: 12px;">Ways to
+                            improve TBT score
+                        </h3>
+                        <div class="row"
+                            style=" --bs-gutter-x: 1.5rem; --bs-gutter-y: 0; display: flex; flex-wrap: wrap; margin-top: calc(-1 * var(--bs-gutter-y)); margin-right: calc(-0.5 * var(--bs-gutter-x));  margin-left: calc(-0.5 * var(--bs-gutter-x));margin: 0 5% 0 5%;">
+                            <div class="col-md-2" style="flex: 33.33%;">
+                                <p style="text-align: justify;font-size: 10px;"> See what is causing your long tasks
+                                    and
+                                    learn how to diagnose the root cause of long
+                                    tasks with Chrome DevTools. In general, the most common causes of long tasks
+                                    are:
+                                </p>
+                                <ul>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; line-height: 1.25em;margin-left: -28px;">
+                                        Unnecessary JavaScript loading, parsing, or execution. While analyzing your
+                                        code
+                                        in the Performance panel you might discover that the main thread is doing
+                                        work
+                                        that isn't really necessary to load the page. Reducing JavaScript payloads
+                                        with
+                                        code splitting, removing unused code, or efficiently loading third-party
+                                        JavaScript should improve your TBT score.</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2" style="flex: 33.33%;">
+                                <ul>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; line-height: 1.25em;">
+                                        Inefficient JavaScript statements. For example, after analyzing your code in
+                                        the
+                                        Performance panel, suppose you see a call to document. querySelectorAll('a')
+                                        that
+                                        returns 2000 nodes. Refactoring your code to use a more specific selector
+                                        that
+                                        only returns 10 nodes should improve your TBT score.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--TBT Section ends-->
+
+        <!--CLS Section starts-->
+        <div class="container" style="margin: 5% 10% 5% 10%">
+            <h2 style="font-style: normal; font-weight: bold; font-size: 25px; line-height: 30px; padding-top:60px;">
+                Cumulative Layout Shift (CLS)</h2>
+            <div class="row"
+                style="--bs-gutter-x: 1.5rem; --bs-gutter-y: 0; display: flex; flex-wrap: wrap; margin-top: calc(-1 * var(--bs-gutter-y)); margin-right: calc(-0.5 * var(--bs-gutter-x));  margin-left: calc(-0.5 * var(--bs-gutter-x));">
+                <div class="col-md-6" style="flex: 50%; text-align: justify; width: 40%;">
+                    <p
+                        style="padding-right: 20px; padding-bottom:50px; border: 1px;border-right-style: solid;border-color: #fafafa30; font-size: 10px">
+                        CLS is a Core Web Vitals metric that measures the visual stability of a page. It looks at
+                        the
+                        proportion of the screen that shifts, and how far elements move. Google considers a CLS
+                        score of
+                        0.1 or less to be good, and a page needs to hit this mark 75% of the time on both mobile and
+                        desktop.
+                    </p>
+
+                </div>
+                <div class="col-md-6" style="flex: 50%; text-align: justify; width: 40%;">
+                    <div style="padding-left: 30px;">
+                        <h3 style="font-size: 11px;">Google gives us the following ratings for the metric:</h3>
+                        <div class="row"
+                            style="--bs-gutter-x: 1.5rem; --bs-gutter-y: 0; display: flex; flex-wrap: wrap; margin-top: calc(-1 * var(--bs-gutter-y)); margin-right: calc(-0.5 * var(--bs-gutter-x));  margin-left: calc(-0.5 * var(--bs-gutter-x));">
+                            <div class="col-md-2" style="flex: 33.33%;">
+                                <h4 style="margin:10px; color:#86C171;font-size: 11px;">Good performance</h4>
+                                <h4 style="margin:10px; color:#F3D053;font-size: 11px;">Needs improvement</h4>
+                                <h4 style="margin:10px; color:#FF5C5C;font-size: 11px;">Poor performance</h4>
+                            </div>
+                            <div class="col-md-2" style="flex: 33.33%;">
+                                <h4 style="margin:10px;font-size: 11px;">Less than 0.1</h4>
+                                <h4 style="margin:10px;font-size: 11px;">0.1 to 0.25</h4>
+                                <h4 style="margin:10px;font-size: 11px;">More than 0.25</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"
+                style="--bs-gutter-x: 1.5rem; --bs-gutter-y: 0; display: flex; flex-wrap: wrap; margin-top: calc(-1 * var(--bs-gutter-y)); margin-right: calc(-0.5 * var(--bs-gutter-x));  margin-left: calc(-0.5 * var(--bs-gutter-x));">
+                <div class="divcolumn2"
+                    style="display: grid; grid-template-columns: 35% 65%; text-align: center; width: 100%;">
+                    <div class="col-md-3"
+                        style="flex: 33.33%; height: 180px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px; vertical-align:middle;">
+                        <h3 style="text-align: left;padding-bottom: 5%; font-size:12px;">Cumulative Layout Shift
+                            (CLS)</h3>
+                        <h1 style="padding-bottom: 5%;">0.05<img src="images/downarrow.png"
+                                style="width:20px;padding-left: 10px;">
+                            <!--<img src="images/uparrow.png" style="width:20px;padding-left: 10px;">-->
+
+                        </h1>
+                        <div class="center" style="text-align: center;">
+                            <div class="pointer"
+                                style="position: relative; align-items: center; margin-right: 14%; margin-left: 8%;">
+                                <image src="images/Pointer.png"
+                                    style="width:20px; position: absolute;--value: 0.05;  --max : 0.3; --c: calc(var(--value) * 100 / var(--max)); left: min(calc(var(--c) * 1%),100%)">
+                                </image><br>
+                            </div>
+                            <image src="images/CLS-scale.png" style="width: 100%; max-width: 80%;"></image>
+                            <!-- <p style="margin-top: -20px; font-size: 10px; color: #c9c9c9;">0.05</p>-->
+                        </div>
+                    </div>
+                    <div class="col-md-3"
+                        style="flex: 33.33%; height: 180px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                        <h3 style="text-align: left; margin-bottom: 5px; margin-left: 3%;font-size: 12px;">Ways to
+                            improve CLS score
+                        </h3>
+                        <div class="row"
+                            style="--bs-gutter-x: 1.5rem; --bs-gutter-y: 0; display: flex; flex-wrap: wrap; margin: 0 20% 0 5%;">
+                            <div class="col-md-2" style="flex: 50%;">
+                                <ul>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; margin-left: -28px; line-height: 1.25em;">
+                                        Use set size attribute dimensions for any media (images, GIFs, etc) so that
+                                        the
+                                        user’s browser knows how much space they’ll take up and won’t suddenly
+                                        change
+                                        the dimensions.</li>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px;margin-left: -28px;line-height: 1.25em;">
+                                        Put all ads in reserved spaces so that they don’t appear suddenly, causing
+                                        content to shift.</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2" style="flex: 50%;">
+                                <ul>
+                                    <li
+                                        style="text-align: justify !important; font-size: 9px; margin-bottom: 10px; margin-left: -5px; line-height: 1.25em;">
+                                        Avoid pop-ups or banners that cause the screen layout to shift when the site
+                                        is
+                                        first loading.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--CLS Section ends-->
+        <!-- Load Test Section Starts-->
+        <div class="container" style="margin: 5% 5% 5% 5%">
+            <h2 style="font-style: normal; font-weight: bold; font-size: 25px; padding-top:60px;">
+               Load Test Results</h2>
+            </div>
+        
+        <table style="text-align: left; width: 600px;margin-left: 10%;border-spacing: 10px 0px;">
+            
+            <tr>
+                <td
+                    style="width: 150px; height: 80px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Max Users</h5>
+                    <h3 style="font-style: normal; font-weight: bold; font-size: 20px; line-height: 20px;">0 VU
+                    </h3>
+                                </td>
+                <br>
+                <td
+                    style="width: 150px; height: 80px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Avg. Throughput</h5>
+                    <h3 style="font-style: normal;  font-size: 20px; line-height: 20px;">0 Hits/s</h3>
+                </td>
+                <td
+                    style="width: 150px; height: 80px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Errors</h5>
+                    <h3 style="font-style: normal; font-weight: bold; font-size: 20px; line-height: 20px;">0 % </h3>
+                    </td>
+            </tr>
+            
+        </table>
+        <table style="text-align: left; width: 600px;margin-left: 10%;border-spacing: 10px 0px;">
+            <tr>
+                <td
+                    style="width: 150px; height: 80px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Avg. Response Time</h5>
+                    <h3 style="font-style: normal; font-weight: bold; font-size: 20px; line-height: 20px;">0 s
+                    </h3>
+                                </td>
+                <br>
+                <td
+                    style="width: 150px; height: 80px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">90% Response Time</h5>
+                    <h3 style="font-style: normal;  font-size: 20px; line-height: 20px;">0 s</h3>
+                </td>
+                <td
+                    style="width: 150px; height: 80px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Avg. Bandwidth</h5>
+                    <h3 style="font-style: normal; font-weight: bold; font-size: 20px; line-height: 20px;">0 KiB/s </h3>
+                    </td>
+            </tr>
+            
+        </table>
+        <table style="text-align: left; width: 600px;margin-left: 10%;border-spacing: 10px 0px;">
+            <tr>
+                <td
+                    style="width: 150px; height: 80px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Started Time</h5>
+                    <h3 style="font-style: normal; font-weight: bold; font-size: 20px; line-height: 20px;">0
+                    </h3>
+                                </td>
+                <br>
+                <td
+                    style="width: 150px; height: 80px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Ended Time</h5>
+                    <h3 style="font-style: normal;  font-size: 20px; line-height: 20px;">0</h3>
+                </td>
+                <td
+                    style="width: 150px; height: 80px; padding: 10px; margin: 10px; background: #252525; border-radius: 24.76px;">
+                    <h5 style="text-align: left; font-size: 11px;">Duration</h5>
+                    <h3 style="font-style: normal; font-weight: bold; font-size: 20px; line-height: 20px;">0 </h3>
+                    </td>
+            </tr>
+            
+        </table>
+
+        <table style="text-align: left; width: 800px;border-spacing: 10px 0px; margin-top: 50px;">
+            <tr>
+                <td
+                    style="border-radius: 24.76px;">
+                    <div id="chart">
+                    </div>
+                                </td>
+            </tr>
+            <tr>
+              <td
+                    style=" border-radius: 24.76px;">
+                    <div id ="chart2">
+
+                    </div>  
+                </td>
+            </tr>
+            
+        </table>
+
+
+
+
+
+
+
+        <div class="footer"
+            style="width: 100%; height: 300px; background-color: #252525; padding: 1% 0 3% 0; margin-top:125px;">
+            <div class="container" style="margin: 5% 10% 5% 10%">
+                <div class="row"
+                    style="--bs-gutter-x: 1.5rem; --bs-gutter-y: 0; display: flex; flex-wrap: wrap; margin-top: calc(-1 * var(--bs-gutter-y)); margin-right: calc(-0.5 * var(--bs-gutter-x));  margin-left: calc(-0.5 * var(--bs-gutter-x));">
+                    <div class="col-md-6" style="flex: 50%; text-align: justify; width: 40%;"
+                        style="align-items:middle">
+                        <h2
+                            style="padding-top:10%; font-style: normal; font-weight: bold; font-size: 25px; line-height: 20px;">
+                            About QEAsaS</h2><br>
+                        <p style="font-size:10px;">Test Design Studio (QEAsaS App Suite) was developed by <br>Nallas
+                            Corporation to help
+                            customers test and evaluate the <br>
+                            performance & usablility of their webpages and web apps.
+                        </p>
+                        <h5 style="font-size:10px;">Find out more at <a href="https://www.qeasas.com/testdesignstudio"
+                                style=" color: #47b2e4; text-decoration: none;">www.qeasas.com/testdesignstudio</a>
+                        </h5>
+                        <h5 style="font-size:10px;">Find us on <br>
+                            <div class="social-icons" style="padding-top:5px">
+                                <a href="#" style="color:white; padding-right:10px"> <i class='fa fa-facebook'></i></a>
+                                <tab>
+                                    <a href="#" style="color:white; padding-right:10px"><i
+                                            class='fa fa-instagram'></i></a>
+                                    </t>
+                                    <a href="#" style="color:white; padding-right:10px"> <i
+                                            class='fa fa-twitter'></i></a>
+                                    </t>
+                                    <a href="#" style="color:white"><i class='fa fa-linkedin'></i></a>
+                            </div>
+                        </h5>
+
+                    </div>
+                    <div class="col-md-6" style="flex: 50%; text-align: justify; width: 40%;">
+                        <image src="images/footer-image.png"
+                            style="max-width: 120%;width: 1000px;vertical-align: middle;">
+                        </image>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+       var options = {
+       series: [
+       {
+          name: 'Users (vu)',
+          type: 'area',
+          data: [
+            [1649654640, 1],
+            [1649654700, 2],
+            [1649654760, 3],
+            [1649654820, 4],
+            [1649654880, 5],
+            [1649654940, 6],
+            [1649655000, 7],
+            [1649655060, 8],
+            [1649655120, 9],
+            [1649655180, 10]
+          ]
+        },
+        {
+          name: 'Hits/s',
+          type: 'line',
+          data: [
+            [1649654640, 11],
+            [1649654700, 22],
+            [1649654760, 33],
+            [1649654820, 44],
+            [1649654880, 55],
+            [1649654940, 66],
+            [1649655000, 77],
+            [1649655060, 88],
+            [1649655120, 99],
+            [1649655180, 100]
+          ]
+        },
+        {
+          name: 'Error(s)',
+          type: 'line',
+          data: [
+            [1649654640, 1],
+            [1649654700, 1],
+            [1649654760, 1],
+            [1649654820, 1],
+            [1649654880, 1],
+            [1649654940, 1],
+            [1649655000, 1],
+            [1649655060, 1],
+            [1649655120, 1],
+            [1649655180, 10]
+          ]
+        }
+       ],
+       chart: {
+         height: 300,
+         type: 'line',
+         stacked: false,
+        stroke: {
+          curve: 'smooth'
+        },
+        fill: {
+          type: 'gradient',
+          gradient: {
+            opacityFrom: 0.6,
+            opacityTo: 0.8,
+          }
+        },
+        toolbar: {
+            show: true,
+            offsetX: 0,
+            offsetY: 0,
+            tools: {
+              download: false,
+              selection: false,
+              zoom: false,
+              zoomin: false,
+              zoomout: false,
+              pan: false,
+              reset: false
+            }
+          }
+       },
+       dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          show: true,
+          width: [3, 3, 3],
+          curve: 'smooth'
+        },
+        fill: {
+          opacity: [0.2, 1, 1]
+        },
+        markers: {
+          size: [2, 2, 2]
+        },
+        colors: ['#86C171', '#F3D053', '#D01F25'],
+        title: {
+          text: 'Load',
+          align: 'left',
+          offsetX: 30,
+          style: {
+            fontSize: '16px',
+            fontWeight: 'bold',
+            fontFamily: 'DM Sans',
+            color: '#fafafa'
+          }
+        },
+        xaxis: {
+          type: 'numeric',
+          min: 1649654640,
+          max: 1649655120,
+          tickPlacement: 'between',
+          // categories: [
+          //   new Date(1649654640 * 1000).toLocaleTimeString([], {
+          //     hour12: false,
+          //     hour: '2-digit',
+          //     minute: '2-digit'
+          //   }),
+          //   new Date(1649654700 * 1000).toLocaleTimeString([], {
+          //     hour12: false,
+          //     hour: '2-digit',
+          //     minute: '2-digit'
+          //   }),
+          //   new Date(1649654760 * 1000).toLocaleTimeString([], {
+          //     hour12: false,
+          //     hour: '2-digit',
+          //     minute: '2-digit'
+          //   })
+          // ],
+          tooltip: {
+            enabled: false
+          },
+          labels: {
+            style: {
+              colors: '#fafafa'
+            },
+            formatter: function (value) {
+              // const temp = new Date(value * 1000).toLocaleDateString();
+              const temp1 = new Date(value * 1000).toLocaleTimeString([], {
+                hour12: false,
+                hour: '2-digit',
+                minute: '2-digit'
+              });
+              return `${temp1}`;
+            }
+          },
+          title: {
+            text: '',
+            style: {
+              color: '#fafafa'
+            }
+          }
+        },
+        yaxis: [
+          {
+            seriesName: 'Users',
+            // axisTicks: {
+            //   show: true,
+            // },
+            axisBorder: {
+              show: true,
+              color: '#fafafa'
+            },
+            min: 0,
+            max: 10,
+            labels: {
+              minWidth: 1,
+              maxWidth: 10,
+              style: {
+                colors: '#fafafa'
+              },
+              formatter: function (val, index) {
+                return val.toFixed(0);
+              }
+            },
+            title: {
+              text: 'Users (vu)',
+              style: {
+                color: '#fafafa'
+              }
+            },
+            tooltip: {
+              enabled: true
+            }
+          },
+          {
+            seriesName: 'Hits/s',
+            opposite: true,
+            // axisTicks: {
+            //   show: true
+            // },
+            axisBorder: {
+              show: true,
+              color: '#fafafa'
+            },
+            // min: 0,
+            // max: 100,
+            labels: {
+              style: {
+                colors: '#fafafa'
+              },
+              formatter: function (val, index) {
+                return val.toFixed(2);
+              }
+            },
+            title: {
+              text: 'Hits/s & Error(s)',
+              style: {
+                color: '#fafafa'
+              }
+            },
+            tooltip: {
+              enabled: true
+            }
+          },
+          {
+            show: false,
+            seriesName: 'Error(s)',
+            opposite: true,
+            // axisTicks: {
+            //   show: true
+            // },
+            axisBorder: {
+              show: true,
+              color: '#fafafa'
+            },
+            // min: 0,
+            // max: 100,
+            labels: {
+              style: {
+                colors: '#fafafa'
+              },
+              formatter: function (val, index) {
+                return val.toFixed(2);
+              }
+            },
+            title: {
+              text: 'Error(s)',
+              style: {
+                color: '#fafafa'
+              }
+            },
+            tooltip: {
+              enabled: true
+            }
+          }
+        ],
+       tooltip: {
+         // fixed: {
+           // enabled: true,
+           // position: 'topLeft', // topRight, topLeft, bottomRight, bottomLeft
+           // offsetY: 30,
+           // offsetX: 60
+         // },
+       },
+       legend: {
+          horizontalAlign: 'left',
+          offsetX: 30,
+          labels: {
+            colors: '#fafafa'
+          },
+          markers: {
+            width: 10,
+            height: 10,
+            strokeWidth: 1,
+            strokeColor: '#fff',
+            radius: 10,
+            offsetX: -1,
+            offsetY: 2
+          }
+        },
+     };
+
+var chart = new ApexCharts(document.querySelector("#chart"), options);
+
+chart.render();
+
+    </script>
+
+<script>
+    var options = {
+    series: [
+    {
+          name: 'Users (vu)',
+          type: 'area',
+          data: [
+            [1649654640, 1],
+            [1649654700, 2],
+            [1649654760, 3],
+            [1649654820, 4],
+            [1649654880, 5],
+            [1649654940, 6],
+            [1649655000, 7],
+            [1649655060, 8],
+            [1649655120, 9],
+            [1649655180, 10]
+          ]
+        },
+        {
+          name: 'Response Time (ms)',
+          type: 'line',
+          data: [
+            [1649654640, 11],
+            [1649654700, 22],
+            [1649654760, 33],
+            [1649654820, 44],
+            [1649654880, 55],
+            [1649654940, 66],
+            [1649655000, 77],
+            [1649655060, 88],
+            [1649655120, 99],
+            [1649655180, 100]
+          ]
+        }
+    ],
+    chart: {
+      height: 300,
+      type: 'line',
+      stacked: false,
+     stroke: {
+       curve: 'smooth'
+     },
+     fill: {
+       type: 'gradient',
+       gradient: {
+         opacityFrom: 0.6,
+         opacityTo: 0.8,
+       }
+     },
+     toolbar: {
+         show: true,
+         offsetX: 0,
+         offsetY: 0,
+         tools: {
+           download: false,
+           selection: false,
+           zoom: false,
+           zoomin: false,
+           zoomout: false,
+           pan: false,
+           reset: false
+         }
+       }
+    },
+    dataLabels: {
+       enabled: false
+     },
+     stroke: {
+       show: true,
+       width: [3, 3, 3],
+       curve: 'smooth'
+     },
+     fill: {
+       opacity: [0.2, 1, 1]
+     },
+     markers: {
+       size: [2, 2, 2]
+     },
+     colors: ['#86C171', '#F3D053'],
+     title: {
+       text: 'Response Time',
+       align: 'left',
+       offsetX: 30,
+       style: {
+         fontSize: '16px',
+         fontWeight: 'bold',
+         fontFamily: 'DM Sans',
+         color: '#fafafa'
+       }
+     },
+     xaxis: {
+          type: 'numeric',
+          min: 1649654640,
+          max: 1649655120,
+          tickPlacement: 'between',
+          // categories: [
+          //   new Date(1649654640 * 1000).toLocaleTimeString([], {
+          //     hour12: false,
+          //     hour: '2-digit',
+          //     minute: '2-digit'
+          //   }),
+          //   new Date(1649654700 * 1000).toLocaleTimeString([], {
+          //     hour12: false,
+          //     hour: '2-digit',
+          //     minute: '2-digit'
+          //   }),
+          //   new Date(1649654760 * 1000).toLocaleTimeString([], {
+          //     hour12: false,
+          //     hour: '2-digit',
+          //     minute: '2-digit'
+          //   })
+          // ],
+          tooltip: {
+            enabled: false
+          },
+          labels: {
+            style: {
+              colors: '#fafafa'
+            },
+            formatter: function (value) {
+              // const temp = new Date(value * 1000).toLocaleDateString();
+              const temp1 = new Date(value * 1000).toLocaleTimeString([], {
+                hour12: false,
+                hour: '2-digit',
+                minute: '2-digit'
+              });
+              return `${temp1}`;
+            }
+          },
+          title: {
+            text: '',
+            style: {
+              color: '#fafafa'
+            }
+          }
+     },
+     yaxis: [
+          {
+            seriesName: 'Users',
+            // axisTicks: {
+            //   show: true,
+            // },
+            axisBorder: {
+              show: true,
+              color: '#fafafa'
+            },
+            min: 0,
+            max: 10,
+            labels: {
+              style: {
+                colors: '#fafafa'
+              },
+              formatter: function (val, index) {
+                return val.toFixed(0);
+              }
+            },
+            title: {
+              text: 'Users (vu)',
+              style: {
+                color: '#fafafa'
+              }
+            },
+            tooltip: {
+              enabled: true
+            }
+          },
+          {
+            seriesName: 'Response Time',
+            opposite: true,
+            // axisTicks: {
+            //   show: true
+            // },
+            axisBorder: {
+              show: true,
+              color: '#fafafa'
+            },
+            // min: 10,
+            // max: 100,
+            labels: {
+              style: {
+                colors: '#fafafa'
+              },
+              formatter: function (val, index) {
+                return val.toFixed(2);
+              }
+            },
+            title: {
+              text: 'Response Time (ms)',
+              style: {
+                color: '#fafafa'
+              }
+            },
+            tooltip: {
+              enabled: true
+            }
+          }
+     ],
+    tooltip: {
+      // fixed: {
+        // enabled: true,
+        // position: 'topLeft', // topRight, topLeft, bottomRight, bottomLeft
+        // offsetY: 30,
+        // offsetX: 60
+      // },
+    },
+    legend: {
+       horizontalAlign: 'left',
+       offsetX: 30,
+       labels: {
+         colors: '#fafafa'
+       },
+       markers: {
+         width: 10,
+         height: 10,
+         strokeWidth: 1,
+         strokeColor: '#fff',
+         radius: 10,
+         offsetX: -1,
+         offsetY: 2
+       }
+     },
+  };
+
+var chart = new ApexCharts(document.querySelector("#chart2"), options);
+
+chart.render();
+
+ </script>
+</body>
+
+
+
+
+</html>
